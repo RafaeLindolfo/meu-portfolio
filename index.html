@@ -15,13 +15,13 @@
 
 <body>
     <div class="caixa-principal">
-        <nav>
+        <nav id="home">
             <h2 class="portfolio-nav">Portfo<span>lio</span></h2>
             <ul>
-                <li><a>Home</a></li>
-                <li><a>Sobre</a></li>
-                <li><a>Projetos</a></li>
-                <li><a>Contato</a></li>
+                <li><a class="link-menu" href="#home">Home</a></li>
+                <li><a class="link-menu" href="#sobre-mim">Sobre</a></li>
+                <li><a class="link-menu" href="#projetos">Projetos</a></li>
+                <li><a class="link-menu" href="#contatos">Contato</a></li>
             </ul>
         </nav>
         <div class="bemvindo">
@@ -30,7 +30,7 @@
         </div>
     </div>
 
-    <section>
+    <section id="sobre-mim">
         <img src="./img/Rafael.png" alt="RafaeLindolfo" height="330px" class="rafael">
         <div class="sobre-mim">
             <h2>Sobre Mim</h2>
@@ -41,7 +41,7 @@
         </div>
     </section>
 
-    <div class="projetos">
+    <div id="projetos">
         <h2> Principais Projetos </h2>
 
         <div class="projetos-card">
@@ -50,23 +50,34 @@
                 <p> Um projeto feito em meu curso de programção onde programei tanto para computador quanto para
                     celular.
                 </p>
-                <a> Ver Projeto</a>
+                <a href="https://rafaelindolfo.github.io/desafios-html-css/" target="_blank"> Ver Projeto</a>
             </div>
             <div class="card"><img src="./img/Logo-marca.png" height="100px">
                 <h5>Wide coverage</h5>
                 <p>Primeiro projeto que fiz, achei que seria bem difícil, mas demonstra uma pouco sobre minhas
                     habilidades
                     básicas de programação.</p>
-                <a>Ver Projeto</a>
+                <a href="https://rafaelindolfo.github.io/Desafio-Css/" target="_blank">Ver Projeto</a>
             </div>
             <div class="card">
                 <img src="./img/WE CARE.png" height="100px">
                 <h5>WE CARE</h5>
                 <p>Um dos projetos que tive algumas dificuldades, mas que foi bem divertido.</p>
-                <a>Ver Projeto</a>
+                <a href="https://rafaelindolfo.github.io/desafio-html-css-3/" target="_blank">Ver Projeto</a>
             </div>
         </div>
     </div>
+
+    <footer id="contatos">
+        <div>
+        <h3>Rafael <span>Lindolfo</span></h3>
+        <p>Para mais informações entre em contato através:</p>
+    </div>
+        <div class="contatos">
+            <a href="https://wa.me/5561991121857?text=Entre+em+contato+comigo%2C+meu+nome+%C3%A9+Rafael+Lindolfo" target="_blank"><img src="./img/Whatsapp.png" height="50px"></a>
+            <a href="https://www.linkedin.com/in/rafael-lindolfo-florindo-75375020b/" target="_blank"><img src="./img/linkedin.png" height="50px"></a>
+        </div>
+    </footer>
 </body>
 
 </html>
